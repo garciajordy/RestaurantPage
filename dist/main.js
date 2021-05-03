@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"h1 {\\n  color: red;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://my-webpack-project/./style/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0;\\n}\\n\\na {\\n  color: rgb(180, 178, 178);\\n}\\n\\na:hover {\\n  color: #fff;\\n  text-decoration: none;\\n}\\n\\nbody {\\n  background-image: url(\\\"https://57ec7bc30196d3d2c006-5e3a8bcecc9956ec50a74932a641f65c.ssl.cf1.rackcdn.com/intro08.jpg\\\");\\n  background-size: cover;\\n  background-position: center;\\n  background-repeat: no-repeat;\\n}\\n\\nnav {\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  right: 0;\\n  background-color: rgba(0, 0, 0, 0.459);\\n}\\n\\nnav ul {\\n  list-style: none;\\n  display: flex;\\n  gap: 2rem;\\n  justify-content: center;\\n}\\n\\nnav li {\\n  color: #fff;\\n  padding: 1rem;\\n}\\n\\n.img-div {\\n  background-image: url(\\\"https://i.pinimg.com/originals/10/d4/10/10d410d3760c2dce369334204946141e.jpg\\\");\\n  background-size: cover;\\n  background-position: center;\\n  width: 100%;\\n  padding-top: 100%;\\n  border-radius: 50%;\\n  margin: 1rem 0;\\n}\\n\\n.home-con {\\n  display: flex;\\n  padding: 4rem;\\n  flex-direction: column;\\n  color: #fff;\\n  justify-content: center;\\n  align-items: center;\\n  background-color: rgba(0, 0, 0, 0.582);\\n  width: 30vw;\\n  margin-top: 15vh;\\n  margin-bottom: 1rem;\\n}\\n\\n#content {\\n  display: flex;\\n  justify-content: center;\\n  height: 100vh;\\n}\\n\\n.card-body {\\n  color: #fff;\\n  display: flex;\\n  justify-content: space-between;\\n}\\n\\n.card {\\n  background-color: rgba(0, 0, 0, 0.562);\\n}\\n\\n.card-img-top {\\n  opacity: 1;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://my-webpack-project/./style/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -53,13 +53,23 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((module) => {
+
+eval("const contact = `   <div class=\"home-con\">\n<h1>CONTACT</h1><br>\n<h5>Phone: 123 456 789</h5><br>\n\n<h5>Addres: First of November 42, Sofia, BG</h5>\n<br><br>\n<h6>Open from:</h6><br>\n<h6>Monday till Friday</h6><br>\n<h6>From 09:00 till 18:00</h6>\n</div>`;\nmodule.exports = contact;\n\n//# sourceURL=webpack://my-webpack-project/./src/contact.js?");
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
   \*********************/
 /***/ ((module) => {
 
-eval("\nlet count = [\"hello\", \"how\", \"Are\"]\nmodule.exports = count;\n\n//# sourceURL=webpack://my-webpack-project/./src/home.js?");
+eval("const home = `   <div class=\"home-con\">\n<h5>Best pizza in your country</h5><br>\n\n<h5>Made with passion since 1908</h5>\n<div class=\"img-div\">\n</div>\n<h4>Order online or visit us!</h4>\n</div>`;\nmodule.exports = home;\n\n\n//# sourceURL=webpack://my-webpack-project/./src/home.js?");
 
 /***/ }),
 
@@ -70,7 +80,17 @@ eval("\nlet count = [\"hello\", \"how\", \"Are\"]\nmodule.exports = count;\n\n//
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style/style.css */ \"./style/style.css\");\n\n\nlet arr = __webpack_require__(/*! ./home */ \"./src/home.js\");\nconsole.log(arr);\n\n//# sourceURL=webpack://my-webpack-project/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style/style.css */ \"./style/style.css\");\n\n\nconst homeInner = __webpack_require__(/*! ./home */ \"./src/home.js\");\nconst menuInner = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\nconst contactInner = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\nconst content = document.getElementById('content');\nconst contentChild = document.createElement('div');\nfunction navBar() {\n  const nav = document.createElement('nav');\n  const ul = document.createElement('ul');\n  const li1 = document.createElement('li');\n  const li2 = document.createElement('li');\n  const li3 = document.createElement('li');\n  const a1 = document.createElement('a');\n  const a2 = document.createElement('a');\n  const a3 = document.createElement('a');\n  li1.classList.add('list-item');\n  a1.innerHTML = 'Home';\n  a1.id = 'home';\n  li2.classList.add('list-item');\n  a2.innerHTML = 'Menu';\n  a2.id = 'menu';\n  li3.classList.add('list-item');\n  a3.innerHTML = 'Contact';\n  a3.id = 'contact';\n  a1.href = '#';\n  a2.href = '#';\n  a3.href = '#';\n  li1.appendChild(a1);\n  li2.appendChild(a2);\n  li3.appendChild(a3);\n  ul.appendChild(li1);\n  ul.appendChild(li2);\n  ul.appendChild(li3);\n  nav.appendChild(ul);\n  content.appendChild(nav);\n  content.appendChild(contentChild);\n}\nnavBar();\nconst home = document.getElementById('home');\nconst contact = document.getElementById('contact');\nconst menu = document.getElementById('menu');\nconst homeContent = document.createElement('div');\nconst menuContent = document.createElement('div');\nconst contactContent = document.createElement('div');\nfunction homePage() {\n  if (contentChild.childNodes[0]) {\n    contentChild.removeChild(contentChild.childNodes[0]);\n  }\n  contentChild.appendChild(homeContent);\n\n  homeContent.innerHTML = homeInner;\n}\nfunction menuPage() {\n  if (contentChild.childNodes[0]) {\n    contentChild.removeChild(contentChild.childNodes[0]);\n  }\n  contentChild.appendChild(menuContent);\n  menuContent.innerHTML = menuInner;\n}\nfunction contactPage() {\n  if (contentChild.childNodes[0]) {\n    contentChild.removeChild(contentChild.childNodes[0]);\n  }\n  contentChild.appendChild(contactContent);\n  contactContent.innerHTML = contactInner;\n}\n\nhomePage();\nhome.addEventListener('click', homePage);\ncontact.addEventListener('click', contactPage);\nmenu.addEventListener('click', menuPage);\n\n//# sourceURL=webpack://my-webpack-project/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((module) => {
+
+eval("const menu = ` <div class=\"row m-5 p-5\">\n<div class=\"col-4\">\n\n    <div class=\"card mb-3\" style=\"width: 18rem;\">\n        <img class=\"card-img-top\" src=\"https://www.glutenfreepalate.com/wp-content/uploads/2018/08/Gluten-Free-Pizza-3.2-480x360.jpg\" alt=\"Card image cap\">\n        <div class=\"card-body\">\n          <p class=\"card-text\">Margarita.</p>\n          <p class=\"card-text\"> 12$</p>\n        </div>\n    </div>\n</div>\n<div class=\"col-4\">\n\n    <div class=\"card mb-3\" style=\"width: 18rem;\">\n        <img class=\"card-img-top\" src=\"https://www.glutenfreepalate.com/wp-content/uploads/2018/08/Gluten-Free-Pizza-3.2-480x360.jpg\" alt=\"Card image cap\">\n        <div class=\"card-body\">\n          <p class=\"card-text\">Margarita.</p>\n          <p class=\"card-text\"> 12$</p>\n        </div>\n    </div>\n</div>\n<div class=\"col-4\">\n\n    <div class=\"card mb-3\" style=\"width: 18rem;\">\n        <img class=\"card-img-top\" src=\"https://www.glutenfreepalate.com/wp-content/uploads/2018/08/Gluten-Free-Pizza-3.2-480x360.jpg\" alt=\"Card image cap\">\n        <div class=\"card-body\">\n          <p class=\"card-text\">Margarita.</p>\n          <p class=\"card-text\"> 12$</p>\n        </div>\n    </div>\n</div>\n<div class=\"col-4\">\n\n    <div class=\"card mb-3\" style=\"width: 18rem;\">\n        <img class=\"card-img-top\" src=\"https://www.glutenfreepalate.com/wp-content/uploads/2018/08/Gluten-Free-Pizza-3.2-480x360.jpg\" alt=\"Card image cap\">\n        <div class=\"card-body\">\n          <p class=\"card-text\">Margarita.</p>\n          <p class=\"card-text\"> 12$</p>\n        </div>\n    </div>\n</div>\n<div class=\"col-4\">\n\n    <div class=\"card mb-3\" style=\"width: 18rem;\">\n        <img class=\"card-img-top\" src=\"https://www.glutenfreepalate.com/wp-content/uploads/2018/08/Gluten-Free-Pizza-3.2-480x360.jpg\" alt=\"Card image cap\">\n        <div class=\"card-body\">\n          <p class=\"card-text\">Margarita.</p>\n          <p class=\"card-text\"> 12$</p>\n        </div>\n    </div>\n</div>\n</div>`;\n\nmodule.exports = menu;\n\n//# sourceURL=webpack://my-webpack-project/./src/menu.js?");
 
 /***/ })
 
